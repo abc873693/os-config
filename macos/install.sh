@@ -23,3 +23,6 @@ sudo gem install cocoapods
 #Flutter FVM
 brew tap leoafarias/fvm
 brew install fvm
+
+#firebase cli tools
+curl -sL https://firebase.tools | bash
