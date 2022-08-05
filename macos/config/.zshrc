@@ -9,8 +9,9 @@ export PATH=/Library/TeX/texbin/latexmk:$PATH
 export PATH="$PATH":"$HOME/development/flutter/.pub-cache/bin"
 export PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:$PATH
 export PATH=${PATH}:~/Library/Android/sdk/platform-tools
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
- #Set name of the theme to load --- if set to "random", it will
+#Set name of the theme to load --- if set to "random", it will
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home
 
 # load a random theme each time oh-my-zsh is loaded, in which case,
