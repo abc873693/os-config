@@ -18,7 +18,11 @@ brew install --cask font-hack-nerd-font
 brew install --cask dozer
 
 #Cocoapods
-sudo gem install cocoapods
+# Uninstall the local cocoapods gem
+sudo gem uninstall cocoapods
+
+# Reinstall cocoapods via Homebrew
+brew install cocoapods
 
 #Flutter FVM
 brew tap leoafarias/fvm
